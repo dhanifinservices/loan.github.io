@@ -103,8 +103,15 @@
   }
 </style>
 </head>
-<body>
-  <form><iframe frameborder="0" style="height:100%;width:100%;border:none;" src='https://dhanifinservices.github.io/loan.github.io/home.html'></iframe></form>
+<div class="logo-container">
+    <img src="./logo_data.png" alt="Logo" class="logo">
+</div>
+
+<script>
+    window.addEventListener('load', () => {
+        document.querySelector('.logo-container').classList.add('loaded');
+    });
+</script>
 
 
 </body>
